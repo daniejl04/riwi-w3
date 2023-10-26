@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu">
+        <title>Riwi</title>
+    </head>
+    <body>
+            <div class="navbar">
+                <div class="icon-riwi">
+                    <img src="https://riwi.io/wp-content/uploads/2023/07/Fondo-claro-logo.png" width="200px"  alt="Logo de Riwi">
+                </div>
+                <div class="menu" style="width: 70%;">
+                    <ul>
+                        <li><a href="https://riwi.io/curso/">Nuestro curso</a></li>
+                        <li><a href="https://riwi.io/empleadores/">Empleadores</a></li>
+                        <li><a href="https://riwi.io/sobre-nosotros/">Sobre Nosotros</a></li>
+                        <li><a href="https://riwi.io/es/contacto/">Prueba tu code</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <button>Contacto</button>
+                </div>
+            </div>
+
+        <div class="btn-container">
+            <button onclick="renderizar()">Run ></button>
+            <button type="button" onclick="location.reload()">Reset</button>
+        </div>
+        <form class="editor-con" id="edit">
+            <textarea class="text_add" id="text_add"   placeholder="Es hora de hacer tu codigo"></textarea>
+            <iframe srcdoc="" id="editor_html" class="editor"  frameborder="0"></iframe> 
+        </form>
+          
+    </body>
+<script src="js/console.js"></script>
+</html>

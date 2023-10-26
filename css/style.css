@@ -1,0 +1,78 @@
+:root{
+    --riwi-purple:#6B5CFF;
+    --riwi-purple-dark:#302E49;
+    --riwi-blue-dark: #324A6D;
+    --riwi-white:#F5F5FD;
+    --riwi-grey:#7F7D96;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+ul li{
+    display: inline-block;
+    padding: 2%;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    color:var(--riwi-purple-dark);
+}
+
+.text_add{
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    background-color:var(--riwi-blue-dark);
+    outline: none;
+    border-radius: 8px;
+    color:var(--riwi-white);
+}
+.text_add::placeholder{
+    color:var(--riwi-white);
+    position: relative;
+   
+}
+
+.editor-con{ 
+    display: flex;
+    height: 30rem;
+    margin: 20px;
+    gap: 10px;
+    
+}
+.editor{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color:var(--riwi-blue-dark);
+    outline: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+}
+button{
+    background-color:var(--riwi-purple) ;
+    border-radius:7px ;
+    font-family: 'ubuntu';
+    color: var(--riwi-white);
+    width: 100px;
+    height: 30px;
+    border: none;
+
+}
